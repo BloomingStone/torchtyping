@@ -1,9 +1,17 @@
-<h1 align='center'>torchtyping</h1>
-<h2 align='center'>Type annotations for a tensor's shape, dtype, names, ...</h2>
+# Please use jaxtyping instead
 
-*Welcome! For new projects I now **strongly** recommend using my newer [jaxtyping](https://github.com/google/jaxtyping) project instead. It supports PyTorch, doesn't actually depend on JAX, and unlike TorchTyping it is compatible with static type checkers. :)*
+*Welcome! For new projects I now **strongly** recommend using my newer [jaxtyping](https://github.com/google/jaxtyping) project instead. It supports PyTorch, doesn't actually depend on JAX, and unlike TorchTyping it is compatible with static type checkers. The 'jax' in the name is now historical!*
+
+<br>
+<br>
+<br>
+
+The original torchtyping README is as follows.
 
 ---
+
+<h1 align='center'>torchtyping</h1>
+<h2 align='center'>Type annotations for a tensor's shape, dtype, names, ...</h2>
 
 Turn this:
 ```python
